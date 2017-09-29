@@ -11,3 +11,4 @@ tradeoff, in some cases having different batchnorm parameters, improves the resu
 
 We observed better results while updating the parameters in online-mode, as compared to batch mode. (i.e instead of accumulating gradients across different steps, we update the parameters in an online fashion) 
 
+The authors would also like to thank open-source contributors from all the different libraries, as the authors have used source code of other people too. (https://github.com/casperkaae/parmesan,  https://github.com/Sohl-Dickstein/Diffusion-Probabilistic-Models)
