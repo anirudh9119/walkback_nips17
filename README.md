@@ -1,6 +1,7 @@
 # walkback_nips17
 
-Rosemary and Me would like to apologize for not pushing clean code, but you should be able to reproduce the experiments just by running the scripts.
+The authors would like to apologize for not pushing clean code, but you should be able to reproduce the experiments just by running the scripts.
+Also, in the current code setup, we are NOT learning the variance, which seems to improve the sample quality.  
 
 Requirements - The code requires theano(version -0.9.0.dev-c697eeab84e5b8a74908da654b66ec9eca4f1291) Unfortunately, the code is not compatible with the latent version of theano, to make it compatible, we need to make some changes.
 
